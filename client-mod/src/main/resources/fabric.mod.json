@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "version": "${version}",
+  "name": "Nebula Client",
+  "description": "Ingame-Menü (Rechtsshift) mit HUD-Modulen, HUD-Editor, Zoom und Minispielen im Nebula-Design.",
+  "authors": ["Nebula"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["de.nebula.client.NebulaClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
